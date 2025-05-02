@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 
 @font-face {
     font-family: poppins;
@@ -160,12 +163,10 @@ html{
 }
 #footer{
     border-top: 2px solid;
-
- 
-
+   
 }
 .feedback{
-    padding-top: 4%;
+    padding-top: 2%;
     margin: auto;
     width: 90%;
    margin-left: 25%;
@@ -177,7 +178,6 @@ html{
 
 
 .names {
-    gap:10%;
     color: rgb(143, 133, 133);
     font-size: 20px;
    
@@ -197,16 +197,18 @@ html{
 .personal-information{
     margin: auto;
     width: 90%;
-    padding-top: 3%;
+    padding-top: 1%
   
 }
 input {
     border: none;
     width: 50%;
-    min-height: 30px;
+    min-height: 5px;
     border-radius: 2px;
     border-bottom: 1px solid;
     margin: 1%;
+    margin-bottom: 4%;
+    margin-right: 3%;
 }
 
 #submit-button {
@@ -220,6 +222,9 @@ input {
     text-align: center;
     border-radius: 6px;
     margin-left: 20%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    
 }
 #message {
     font-size: 20px;
@@ -231,4 +236,157 @@ input {
 }
 
 
+@media only screen and (max-width: 750px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .title{
+        margin-top: 7%;
+        width: 100%;
+        text-align: center;
+       
+    
+        p{
+    font-size: 13px;
+        }
+        h1{
+    font-size: 40px;
+    margin-top: 2%;
+        }
+    }
+  
+    .navigation-bar{
+        margin-top: -1%;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+         width:100%;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin-right: -13%;
+        
+        a{
+            padding:2%;
+            text-decoration: none;
+            color: gray;
+            
+        }
+    
+    }
+
+    .navigation-bar div{
+        padding: 1% 5%;
+        border-right: 2px solid black;
+      
+    }
+    .navigation-bar div:nth-child(1){
+        border-left: 2px solid black;
+    }
+    .contact-us{
+        display:flex;
+        gap:13%;
+        margin-left: -4%;
+     
+    }
+
+    .introduction{
+        width:90%;
+        margin: auto;
+      border:2px solid;
+     margin-top: 6%;
+     padding-bottom: 3%;
+     margin-top: 25%;
+        img{
+           
+            width: 100%;
+            height: 50vh;
+            padding-bottom: 3%; 
+        }
+    }
+  
+   
+.title-description{
+    margin: auto;
+    width: 90%;
+   
+    p{
+        font-size: 16px;
+        color: rgb(26, 25, 25);
+        font-family: poppins;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+    
+
+
+.pictures{
+    margin-top: 7%;
+    flex-direction: column;
+    margin-left: 15%;
+    width:100%;
+    p{
+        font-size: 20px;
+    }
+}
+
+.reflection-title{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 20px;
+    margin: auto;
+   margin-top: 7%;
+    text-align: center;
+    padding: 1%;
+    width: 90%;
+
+}
+.reflection-layout{
+    display: flex;
+    margin-bottom: 3%;
+    width:90%;
+}
+
+
+#header{
+    font-size: 20px;
+}
+
+.reflection-introduction{
+    width: 60%; 
+    border-left: 2px solid;
+    padding-top: 5%;
+    margin-top: 2%;
+    margin-right:-15%;
+
+    p{
+        width: 50%; 
+        font-size: 16px;
+    }
+    img{
+        margin-bottom: 5%;
+        height: 30vh;
+        width: 90%;
+    }
+}
+
+.first-picture img{
+    height:20vh;
+    width:100%;
+    margin-left: -30%;
+    margin-bottom: 3%;
+    border: 6px solid rgb(92, 154, 196);
+    border-radius: 3%;
+
+}
+
+
+
+
+
+
+
+}
 
